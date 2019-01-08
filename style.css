@@ -1,0 +1,30 @@
+body{
+	background-color: #1a1a1a;
+}
+
+.imagesequence {
+	width: 100%;
+	align-content: center;
+	text-align: center;
+}
+.main-container {
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+.header-animation {
+	color: rgba(165, 205, 57, 0.9);
+	width: 100%;
+	text-align: center;
+	font-family: Gotham;
+	line-height: normal;
+}
+.text-container {
+	color: white;
+	font-family: Gotham;
+	font-size: 24px;
+}
+a {
+	text-decoration: none;
+	color: rgba(165, 205, 57, 0.9) !important;
+}
