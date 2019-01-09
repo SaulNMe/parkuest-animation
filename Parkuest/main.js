@@ -3,10 +3,21 @@ $(function () {
 	
 	let images = [];
 	(function(){
-		for (var i = 1; i <= 92; i++) {
+		for (var i = 0; i <= 200; i++) {
 			let urlImage = ""
-			urlImage = "images/Trantition/p" + i + ".png"
-			images.push(urlImage);
+			if(i<=9){
+				urlImage = "images/Trantition/sensor00" + i + ".png"
+			}
+
+			if (i>= 10 && i<100) {
+				urlImage = "images/Trantition/sensor0" + i + ".png"
+			}
+
+			if (i>=100) {
+				urlImage = "images/Trantition/sensor" + i + ".png"
+			
+			}
+				images.push(urlImage);
 		}
 		
 	})(window);
